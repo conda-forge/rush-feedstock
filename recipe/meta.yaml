@@ -1,5 +1,5 @@
 {% set name = "rush" %}
-{% set version = "0.5.6" %}
+{% set version = "0.5.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/shenwei356/rush/archive/v{{ version }}.tar.gz
-  sha256: 57450967bd222964f4865d7884b358d391e30d6eee8951b149f34f8642a32958
+  sha256: 07d0fc8b4247625a8a62dcd7e337a9bc16f7e25a5ced7e96ee08cdc88fbb2dc6
 
 build:
   number: 0
@@ -27,7 +27,7 @@ about:
   license_file:
     - LICENSE
     - license-files/
-  summary:  A cross-platform command-line tool for executing jobs in parallel
+  summary: A cross-platform command-line tool for executing jobs in parallel
 
 extra:
   recipe-maintainers:
