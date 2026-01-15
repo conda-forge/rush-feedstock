@@ -1,5 +1,5 @@
 {% set name = "rush" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/shenwei356/rush/archive/v{{ version }}.tar.gz
-  sha256: 82d8496874631b1b27618e3a5c1d95d3f5610ab5a415341a2115688b12bca4dc
+  sha256: d8d04a4fd506a2f369ec8753b339364cd7e58749f794d60cf2cbbb2a5833c8ec
 
 build:
   number: 0
